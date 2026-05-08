@@ -16,6 +16,7 @@ const defaultAllowedOrigins = [
   "http://localhost:5174",
   "http://127.0.0.1:5173",
   "http://127.0.0.1:5174",
+  "https://atp-24-eg-105-b12-capstone-blogapp.vercel.app",
 ];
 const envAllowedOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || "")
   .split(",")
