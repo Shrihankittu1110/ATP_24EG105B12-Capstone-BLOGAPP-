@@ -17,6 +17,7 @@ const defaultAllowedOrigins = [
   "http://127.0.0.1:5173",
   "http://127.0.0.1:5174",
   "https://atp-24-eg-105-b12-capstone-blogapp.vercel.app",
+  "https://atp-24-eg-105-b12-capstone-blogapp-3got8rhkf.vercel.app",
 ];
 const envAllowedOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || "")
   .split(",")
